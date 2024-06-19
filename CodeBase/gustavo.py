@@ -1,7 +1,7 @@
 def fac_to(frecuencia,clases,clase):
 
     fre_or = []
-    for elemento in clases:
+    for elemento in clase:
         idx = clases.index(elemento)
         fas = frecuencia[idx]
         fre_or.append(fas)
